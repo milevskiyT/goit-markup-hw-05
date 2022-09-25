@@ -164,7 +164,6 @@
   background-color: rgba(47, 48, 58, 0.8);
   left: 0;
   bottom: 19%;
-  z-index: 1;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* PORTFOLIO */
@@ -235,8 +234,8 @@
   right: 0;
   width: 30px;
   height: 30px;
-  margin-right: 8px;
-  margin-top: 8px;
+  right: 8px;
+  top: 8px;
   border-radius: 50px;
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -247,6 +246,7 @@
   border-radius: 50px;
   fill: var(--primary-text-color);
   background-color: var(--primary-background-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .icon-close:hover {
   fill: var(--primary-background-color);
